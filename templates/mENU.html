@@ -1,0 +1,32 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="right"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="right" id="side-menu21">
+    <ion-header-bar class="bar-stable">
+      <div class="title">MENU</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-right has-header ">
+      <ion-list id="mENU-list1">
+        <ion-item class="item-icon-right" id="mENU-list-item4">Home
+          <i class="icon ion-home"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="mENU-list-item1" ui-sref="mENU.nUBusTracking" menu-close="">ขนส่งมวลชน มน.
+          <i class="icon ion-android-bus"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="mENU-list-item2" ui-sref="mENU.busDriver" menu-close="">ทีมงาน
+          <i class="icon ion-android-person"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="mENU-list-item3" ui-sref="mENU.passenger" menu-close="">ติดต่อเรา
+          <i class="icon ion-ios-email"></i>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
